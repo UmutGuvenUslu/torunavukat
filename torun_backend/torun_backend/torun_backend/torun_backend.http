@@ -1,0 +1,6 @@
+@torun_backend_HostAddress = http://localhost:5026
+
+GET {{torun_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

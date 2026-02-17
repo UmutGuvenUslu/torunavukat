@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Vq4Yt5WGqFzHD55FTBUS0pfxc3EUBp1Wy7DK0oj+wj0=",
+  "Source": "torun_backend",
+  "BasePath": "_content/torun_backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

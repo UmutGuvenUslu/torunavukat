@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "torun_backend", "torun_backend\torun_backend.csproj", "{EA74305C-F62E-4FD2-A176-F3597770A701}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA74305C-F62E-4FD2-A176-F3597770A701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA74305C-F62E-4FD2-A176-F3597770A701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA74305C-F62E-4FD2-A176-F3597770A701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA74305C-F62E-4FD2-A176-F3597770A701}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57F03387-7B2C-44D0-AAB3-893009FAFBA5}
+	EndGlobalSection
+EndGlobal
