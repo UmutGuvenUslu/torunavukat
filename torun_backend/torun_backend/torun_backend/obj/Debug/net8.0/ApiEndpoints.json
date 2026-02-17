@@ -1,22 +1,76 @@
 [
   {
     "ContainingType": "torun_backend.Controllers.HomeController",
-    "Method": "Index",
-    "RelativePath": "Home",
+    "Method": "GetAll",
+    "RelativePath": "api/Home",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.HomeController",
+    "Method": "Add",
+    "RelativePath": "api/Home",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "model",
+        "Type": "torun_backend.Entities.BlogComponent",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.HomeController",
+    "Method": "GetById",
+    "RelativePath": "api/Home/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.HomeController",
+    "Method": "Delete",
+    "RelativePath": "api/Home/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.HomeController",
+    "Method": "Update",
+    "RelativePath": "api/Home/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "torun_backend.Entities.BlogComponent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

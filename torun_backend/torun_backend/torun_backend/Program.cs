@@ -1,6 +1,16 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
+using torun_backend.Entities;
+using torun_backend; 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    builder.Services.AddScoped<IHomeService<BlogComponent>, BlogComponentService>();
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
