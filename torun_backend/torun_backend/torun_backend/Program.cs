@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using torun_backend.Entities;
-using torun_backend; 
+using torun_backend.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
     builder.Services.AddScoped<IHomeService<BlogComponent>, BlogComponentService>();
+    builder.Services.AddScoped<IHomeService<SiteDesc>, SiteDescService>();
+
 
 
 builder.Services.AddControllers();
