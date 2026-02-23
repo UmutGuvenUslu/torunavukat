@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "cabinet": "Le Cabinet",
+    "honoraires": "Honoraires",
+    "competences": "Compétences",
+    "postulation": "Postulation",
+    "contact": "Contact",
+    "contact_button": "Nous contacter"
+  },
+  "hero": {
+    "title": "Avocat au Barreau de Paris",
+    "subtitle": "Droit des affaires et conseil juridique"
+  }
+}

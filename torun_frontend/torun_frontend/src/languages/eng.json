@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "cabinet": "The Office",
+    "honoraires": "Fees",
+    "competences": "Practice Areas",
+    "postulation": "Postulation",
+    "contact": "Contact",
+    "contact_button": "Contact Us"
+  },
+  "hero": {
+    "title": "Lawyer at the Paris Bar",
+    "subtitle": "Business Law and Legal Advice"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "cabinet": "Büromuz",
+    "honoraires": "Ücretler",
+    "competences": "Uzmanlık Alanları",
+    "postulation": "Dava Takibi",
+    "contact": "İletişim",
+    "contact_button": "Bize Ulaşın"
+  },
+  "hero": {
+    "title": "Paris Barosu Avukatı",
+    "subtitle": "Ticaret Hukuku ve Hukuki Danışmanlık"
+  }
+}
