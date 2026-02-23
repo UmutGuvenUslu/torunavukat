@@ -5,10 +5,28 @@
     "competences": "Uzmanlık Alanları",
     "postulation": "Dava Takibi",
     "contact": "İletişim",
-    "contact_button": "Bize Ulaşın"
+    "contact_button": "Randevu Alın"
   },
-  "hero": {
-    "title": "Paris Barosu Avukatı",
-    "subtitle": "Ticaret Hukuku ve Hukuki Danışmanlık"
+  "pages": {
+    "cabinet": {
+      "title": "Hukuk Büromuz",
+      "description": "Paris'te güvenilir hukuki çözüm ortağınız LN Avocat'ın uzmanlığını ve değerlerini keşfedin."
+    },
+    "honoraires": {
+      "title": "Ücretlendirme Politikamız",
+      "description": "Her müvekkilin ihtiyacına uygun, şeffaf ve net bir faturalandırma politikası."
+    },
+    "competences": {
+      "title": "Uzmanlık Alanlarımız",
+      "description": "Size hukuki danışmanlık yapmak ve haklarınızı savunmak için derinlemesine ve çok yönlü uzmanlık."
+    },
+    "postulation": {
+      "title": "Paris Barosu Dava Takibi",
+      "description": "Paris mahkemelerinde meslektaşlarımız için hızlı, titiz ve güvenilir dava takip (tevkil) hizmeti."
+    },
+    "contact": {
+      "title": "Bize Ulaşın",
+      "description": "Sorularınızı yanıtlamak ve hukuki süreçlerinizde size destek olmak için ekibimiz her zaman yanınızda."
+    }
   }
 }

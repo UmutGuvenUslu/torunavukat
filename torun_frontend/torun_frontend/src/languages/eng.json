@@ -1,14 +1,32 @@
 {
   "nav": {
-    "cabinet": "The Office",
+    "cabinet": "The Firm",
     "honoraires": "Fees",
-    "competences": "Practice Areas",
-    "postulation": "Postulation",
+    "competences": "Expertise",
+    "postulation": "Litigation Support",
     "contact": "Contact",
-    "contact_button": "Contact Us"
+    "contact_button": "Book Appointment"
   },
-  "hero": {
-    "title": "Lawyer at the Paris Bar",
-    "subtitle": "Business Law and Legal Advice"
+  "pages": {
+    "cabinet": {
+      "title": "Our Law Firm",
+      "description": "Discover the expertise and values of LN Avocat, your trusted legal partner in Paris."
+    },
+    "honoraires": {
+      "title": "Our Fees",
+      "description": "A transparent and clear billing policy tailored to the specific needs of each client."
+    },
+    "competences": {
+      "title": "Areas of Expertise",
+      "description": "In-depth and cross-disciplinary expertise to advise and defend your interests."
+    },
+    "postulation": {
+      "title": "Litigation Support in Paris",
+      "description": "Responsive and rigorous representation and support before Parisian courts."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Our team is at your disposal to answer your questions and provide legal assistance."
+    }
   }
 }

@@ -5,10 +5,28 @@
     "competences": "Compétences",
     "postulation": "Postulation",
     "contact": "Contact",
-    "contact_button": "Nous contacter"
+    "contact_button": "Prendre Rendez-vous"
   },
-  "hero": {
-    "title": "Avocat au Barreau de Paris",
-    "subtitle": "Droit des affaires et conseil juridique"
+  "pages": {
+    "cabinet": {
+      "title": "Notre Cabinet",
+      "description": "Découvrez l'expertise et les valeurs de LN Avocat, votre partenaire juridique de confiance à Paris."
+    },
+    "honoraires": {
+      "title": "Honoraires",
+      "description": "Une politique de facturation transparente, claire et adaptée aux besoins de chaque client."
+    },
+    "competences": {
+      "title": "Nos Domaines d'Intervention",
+      "description": "Une expertise pointue et transversale pour vous conseiller et défendre vos intérêts."
+    },
+    "postulation": {
+      "title": "Postulation au Barreau de Paris",
+      "description": "Un service de postulation réactif et rigoureux devant les juridictions parisiennes."
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "description": "Notre équipe est à votre écoute pour répondre à vos questions et vous accompagner."
+    }
   }
 }

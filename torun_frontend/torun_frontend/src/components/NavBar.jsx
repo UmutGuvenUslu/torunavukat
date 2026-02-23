@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom"; // React Router'dan Link import edildi
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { t, i18n } = useTranslation();
 
-  // JSON dosyalarındaki (tr.json, fr.json, eng.json) "nav" objesinin altındaki anahtarlar
+  // JSON dosyalarındaki "nav" objesinin altındaki anahtarlar (Aynı zamanda rotalarımız)
   const menuKeys = ["cabinet", "honoraires", "competences", "postulation"];
   const languages = ["FR", "EN", "TR"];
 
@@ -13,15 +14,14 @@ const Navbar = () => {
     i18n.changeLanguage(lang.toLowerCase());
   };
 
-  // Güvenli dil kontrolü
   const currentLang = (i18n.language || "fr").toUpperCase();
 
   return (
     <nav className="fixed top-0 left-0 right-0 w-full bg-[#0b101e] font-sans z-50">
       {/* --- ÜST BAR (Header) --- */}
       <div className="flex items-center justify-between px-6 py-4 md:px-8 relative z-20 bg-[#0b101e]">
-        {/* Logo Sol Kısım */}
-        <div className="flex items-center gap-4">
+        {/* Logo Sol Kısım - Tıklanınca anasayfaya ("/") gider */}
+        <Link to="/" className="flex items-center gap-4 cursor-pointer">
           <div className="flex flex-col items-center justify-center w-12 h-12 bg-white rounded-lg shadow-sm">
             <span className="text-[#c4a661] font-serif font-semibold text-xl leading-none">
               LN
@@ -35,19 +35,18 @@ const Navbar = () => {
               Barreau de Paris
             </span>
           </div>
-        </div>
+        </Link>
 
-        {/* Masaüstü Menü Linkleri - Eşleştirme Burada */}
+        {/* Masaüstü Menü Linkleri - <a> yerine <Link> kullanıldı */}
         <div className="hidden md:flex items-center gap-10 px-10 py-3 bg-[#1a2235] rounded-full">
           {menuKeys.map((key) => (
-            <a
+            <Link
               key={key}
-              href={`#${key}`} // Sayfa içi scroll için id
+              to={`/${key}`} // Sayfa içi scroll yerine router linkine çevrildi
               className="text-[#cbd5e1] text-sm font-medium hover:text-white transition-colors"
             >
-              {t(`nav.${key}`)}{" "}
-              {/* JSON'daki nav.cabinet, nav.honoraires vb. */}
-            </a>
+              {t(`nav.${key}`)}
+            </Link>
           ))}
         </div>
 
@@ -69,7 +68,11 @@ const Navbar = () => {
             ))}
           </div>
 
-          <button className="flex items-center gap-2 px-6 py-3 bg-[#1a2235] hover:bg-[#232e48] text-white text-sm font-medium rounded-full transition-colors cursor-pointer">
+          {/* İletişim butonu da /contact rotasına bağlandı */}
+          <Link
+            to="/contact"
+            className="flex items-center gap-2 px-6 py-3 bg-[#1a2235] hover:bg-[#232e48] text-white text-sm font-medium rounded-full transition-colors cursor-pointer"
+          >
             {t("nav.contact")}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +88,7 @@ const Navbar = () => {
                 d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
               />
             </svg>
-          </button>
+          </Link>
         </div>
 
         {/* Mobil Hamburger Butonu */}
@@ -114,11 +117,15 @@ const Navbar = () => {
         className={`fixed inset-0 bg-[#0b101e] z-50 flex flex-col px-6 py-4 md:hidden transition-all duration-300 ease-in-out ${isOpen ? "opacity-100 visible" : "opacity-0 invisible"}`}
       >
         <div className="flex justify-between items-center pb-6 border-b border-[#1a2235]">
-          <div className="flex flex-col items-center justify-center w-12 h-12 bg-white rounded-lg shadow-sm">
+          <Link
+            to="/"
+            onClick={() => setIsOpen(false)}
+            className="flex flex-col items-center justify-center w-12 h-12 bg-white rounded-lg shadow-sm cursor-pointer"
+          >
             <span className="text-[#c4a661] font-serif font-semibold text-xl leading-none">
               LN
             </span>
-          </div>
+          </Link>
           <button
             onClick={() => setIsOpen(false)}
             className="flex items-center justify-center w-10 h-10 bg-[#1a2235] rounded-full text-[#94a3b8] hover:text-white transition-colors"
@@ -139,17 +146,18 @@ const Navbar = () => {
           </button>
         </div>
 
+        {/* Mobil Menü Linkleri */}
         <div className="flex-1 flex flex-col gap-6 pt-8 pl-2">
           {menuKeys.map((key) => (
-            <a
+            <Link
               key={key}
-              href={`#${key}`}
-              onClick={() => setIsOpen(false)}
+              to={`/${key}`}
+              onClick={() => setIsOpen(false)} // Tıklayınca menü kapansın
               className="flex items-center gap-4 text-[#cbd5e1] font-semibold text-[17px] hover:text-white transition-colors"
             >
               <span className="w-1.5 h-1.5 bg-[#334155] rounded-full"></span>
               {t(`nav.${key}`)}
-            </a>
+            </Link>
           ))}
         </div>
 
@@ -170,7 +178,11 @@ const Navbar = () => {
             ))}
           </div>
 
-          <button className="w-full flex justify-center items-center gap-2 bg-[#d8a865] hover:bg-[#c49658] text-[#0b101e] font-bold text-[15px] py-4 rounded-xl transition-colors">
+          <Link
+            to="/contact"
+            onClick={() => setIsOpen(false)}
+            className="w-full flex justify-center items-center gap-2 bg-[#d8a865] hover:bg-[#c49658] text-[#0b101e] font-bold text-[15px] py-4 rounded-xl transition-colors cursor-pointer"
+          >
             {t("nav.contact_button")}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -186,7 +198,7 @@ const Navbar = () => {
                 d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
               />
             </svg>
-          </button>
+          </Link>
         </div>
       </div>
     </nav>
