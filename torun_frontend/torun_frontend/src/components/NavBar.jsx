@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom"; // React Router'dan Link import edildi
+import logo from "../assets/logo.svg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,14 +23,16 @@ const Navbar = () => {
       <div className="flex items-center justify-between px-6 py-4 md:px-8 relative z-20 bg-[#0b101e]">
         {/* Logo Sol Kısım - Tıklanınca anasayfaya ("/") gider */}
         <Link to="/" className="flex items-center gap-4 cursor-pointer">
-          <div className="flex flex-col items-center justify-center w-12 h-12 bg-white rounded-lg shadow-sm">
-            <span className="text-[#c4a661] font-serif font-semibold text-xl leading-none">
-              LN
-            </span>
+          <div className="flex items-center justify-center w-12 h-12 rounded-lg shadow-sm overflow-hidden">
+            <img
+              src={logo}
+              alt="LN Avocat Logo"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="hidden md:flex flex-col justify-center">
             <h1 className="text-white font-serif font-bold text-xl tracking-wide mb-1">
-              LN Avocat
+              Better Call Burak
             </h1>
             <span className="text-[#64748b] text-[10px] font-bold tracking-[0.25em] uppercase">
               Barreau de Paris
