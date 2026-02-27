@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("torun_backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3815fda720fe8252a3bdf8d53c7c2fc45e751491")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e72e732297bb7c688d172feee84d5890847819c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("torun_backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("torun_backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,10 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Home": {
+    "/api/Blog": {
       "get": {
         "tags": [
-          "Home"
+          "Blog"
         ],
         "responses": {
           "200": {
@@ -18,23 +18,23 @@
       },
       "post": {
         "tags": [
-          "Home"
+          "Blog"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/BlogComponent"
+                "$ref": "#/components/schemas/Blog"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/BlogComponent"
+                "$ref": "#/components/schemas/Blog"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/BlogComponent"
+                "$ref": "#/components/schemas/Blog"
               }
             }
           }
@@ -46,10 +46,10 @@
         }
       }
     },
-    "/api/Home/{id}": {
+    "/api/Blog/{id}": {
       "get": {
         "tags": [
-          "Home"
+          "Blog"
         ],
         "parameters": [
           {
@@ -67,28 +67,37 @@
             "description": "Success"
           }
         }
-      }
-    },
-    "/api/Home/Update": {
+      },
       "put": {
         "tags": [
-          "Home"
+          "Blog"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/BlogComponent"
+                "$ref": "#/components/schemas/Blog"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/BlogComponent"
+                "$ref": "#/components/schemas/Blog"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/BlogComponent"
+                "$ref": "#/components/schemas/Blog"
               }
             }
           }
@@ -98,12 +107,10 @@
             "description": "Success"
           }
         }
-      }
-    },
-    "/api/Home/Delete/{id}": {
+      },
       "delete": {
         "tags": [
-          "Home"
+          "Blog"
         ],
         "parameters": [
           {
@@ -123,10 +130,10 @@
         }
       }
     },
-    "/api/SiteDesc": {
+    "/api/BlogTranslation": {
       "get": {
         "tags": [
-          "SiteDesc"
+          "BlogTranslation"
         ],
         "responses": {
           "200": {
@@ -136,23 +143,23 @@
       },
       "post": {
         "tags": [
-          "SiteDesc"
+          "BlogTranslation"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/SiteDesc"
+                "$ref": "#/components/schemas/BlogTranslation"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/SiteDesc"
+                "$ref": "#/components/schemas/BlogTranslation"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/SiteDesc"
+                "$ref": "#/components/schemas/BlogTranslation"
               }
             }
           }
@@ -164,10 +171,71 @@
         }
       }
     },
-    "/api/SiteDesc/{id}": {
+    "/api/BlogTranslation/{id}": {
       "get": {
         "tags": [
-          "SiteDesc"
+          "BlogTranslation"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "BlogTranslation"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BlogTranslation"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BlogTranslation"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BlogTranslation"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "BlogTranslation"
         ],
         "parameters": [
           {
@@ -187,26 +255,26 @@
         }
       }
     },
-    "/api/SiteDesc/Update": {
-      "put": {
+    "/api/Contact/send": {
+      "post": {
         "tags": [
-          "SiteDesc"
+          "Contact"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/SiteDesc"
+                "$ref": "#/components/schemas/ContactFormDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/SiteDesc"
+                "$ref": "#/components/schemas/ContactFormDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/SiteDesc"
+                "$ref": "#/components/schemas/ContactFormDto"
               }
             }
           }
@@ -218,10 +286,387 @@
         }
       }
     },
-    "/api/SiteDesc/Delete/{id}": {
+    "/api/Login": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Page": {
+      "get": {
+        "tags": [
+          "Page"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Page"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Page"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Page"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Page"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Page/{id}": {
+      "get": {
+        "tags": [
+          "Page"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Page"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Page"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Page"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Page"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
       "delete": {
         "tags": [
-          "SiteDesc"
+          "Page"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PageField": {
+      "get": {
+        "tags": [
+          "PageField"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "PageField"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PageField"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PageField"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PageField"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PageField/{id}": {
+      "get": {
+        "tags": [
+          "PageField"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "PageField"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PageField"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PageField"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PageField"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "PageField"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Translation": {
+      "get": {
+        "tags": [
+          "Translation"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Translation"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Translation"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Translation"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Translation"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Translation/{id}": {
+      "get": {
+        "tags": [
+          "Translation"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Translation"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Translation"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Translation"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Translation"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Translation"
         ],
         "parameters": [
           {
@@ -244,40 +689,237 @@
   },
   "components": {
     "schemas": {
-      "BlogComponent": {
+      "Blog": {
         "type": "object",
         "properties": {
           "id": {
             "type": "integer",
             "format": "int32"
           },
+          "imageUrl": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "isPublished": {
+            "type": "boolean"
+          },
+          "translations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BlogTranslation"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BlogTranslation": {
+        "required": [
+          "blogId",
+          "content",
+          "languageCode",
+          "slug",
+          "title"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "blogId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "blog": {
+            "$ref": "#/components/schemas/Blog"
+          },
+          "languageCode": {
+            "maxLength": 10,
+            "minLength": 1,
+            "type": "string"
+          },
           "title": {
+            "maxLength": 255,
+            "minLength": 1,
+            "type": "string"
+          },
+          "content": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "slug": {
+            "maxLength": 255,
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ContactFormDto": {
+        "type": "object",
+        "properties": {
+          "firstName": {
             "type": "string",
             "nullable": true
           },
-          "description": {
+          "lastName": {
             "type": "string",
             "nullable": true
           },
-          "image": {
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "message": {
             "type": "string",
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "SiteDesc": {
+      "LoginDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Page": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "fields": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PageField"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PageField": {
+        "required": [
+          "category",
+          "pageId",
+          "title",
+          "type"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "pageId": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "page": {
+            "$ref": "#/components/schemas/Page"
+          },
+          "type": {
+            "maxLength": 20,
+            "minLength": 1,
+            "type": "string"
+          },
+          "category": {
+            "maxLength": 20,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "hasImage": {
+            "type": "boolean"
+          },
+          "translations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Translation"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Translation": {
+        "required": [
+          "fieldId",
+          "languageCode"
+        ],
         "type": "object",
         "properties": {
           "id": {
             "type": "integer",
             "format": "int32"
           },
-          "title": {
+          "fieldId": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "pageField": {
+            "$ref": "#/components/schemas/PageField"
+          },
+          "languageCode": {
+            "maxLength": 10,
+            "minLength": 1,
+            "type": "string"
+          },
+          "textValue": {
             "type": "string",
             "nullable": true
           },
-          "description": {
+          "imageUrl": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "titleValue": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "descriptionValue": {
             "type": "string",
             "nullable": true
           }

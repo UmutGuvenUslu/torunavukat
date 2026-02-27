@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "torun_backend.Controllers.HomeController",
+    "ContainingType": "torun_backend.Controllers.BlogController",
     "Method": "GetAll",
-    "RelativePath": "api/Home",
+    "RelativePath": "api/Blog",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,25 +10,25 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "torun_backend.Controllers.HomeController",
+    "ContainingType": "torun_backend.Controllers.BlogController",
     "Method": "Add",
-    "RelativePath": "api/Home",
+    "RelativePath": "api/Blog",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "torun_backend.Entities.BlogComponent",
+        "Name": "blog",
+        "Type": "torun_backend.Entities.Blog",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "torun_backend.Controllers.HomeController",
+    "ContainingType": "torun_backend.Controllers.BlogController",
     "Method": "GetById",
-    "RelativePath": "api/Home/{id}",
+    "RelativePath": "api/Blog/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -42,9 +42,30 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "torun_backend.Controllers.HomeController",
+    "ContainingType": "torun_backend.Controllers.BlogController",
+    "Method": "Update",
+    "RelativePath": "api/Blog/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "blog",
+        "Type": "torun_backend.Entities.Blog",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.BlogController",
     "Method": "Delete",
-    "RelativePath": "api/Home/Delete/{id}",
+    "RelativePath": "api/Blog/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -58,25 +79,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "torun_backend.Controllers.HomeController",
-    "Method": "Update",
-    "RelativePath": "api/Home/Update",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "model",
-        "Type": "torun_backend.Entities.BlogComponent",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "torun_backend.Controllers.SiteDescController",
+    "ContainingType": "torun_backend.Controllers.BlogTranslationController",
     "Method": "GetAll",
-    "RelativePath": "api/SiteDesc",
+    "RelativePath": "api/BlogTranslation",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -84,25 +89,25 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "torun_backend.Controllers.SiteDescController",
+    "ContainingType": "torun_backend.Controllers.BlogTranslationController",
     "Method": "Add",
-    "RelativePath": "api/SiteDesc",
+    "RelativePath": "api/BlogTranslation",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "torun_backend.Entities.SiteDesc",
+        "Name": "translation",
+        "Type": "torun_backend.Entities.BlogTranslation",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "torun_backend.Controllers.SiteDescController",
+    "ContainingType": "torun_backend.Controllers.BlogTranslationController",
     "Method": "GetById",
-    "RelativePath": "api/SiteDesc/{id}",
+    "RelativePath": "api/BlogTranslation/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -116,9 +121,30 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "torun_backend.Controllers.SiteDescController",
+    "ContainingType": "torun_backend.Controllers.BlogTranslationController",
+    "Method": "Update",
+    "RelativePath": "api/BlogTranslation/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "translation",
+        "Type": "torun_backend.Entities.BlogTranslation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.BlogTranslationController",
     "Method": "Delete",
-    "RelativePath": "api/SiteDesc/Delete/{id}",
+    "RelativePath": "api/BlogTranslation/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -132,16 +158,269 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "torun_backend.Controllers.SiteDescController",
+    "ContainingType": "torun_backend.Controllers.ContactController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Contact/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formDto",
+        "Type": "torun_backend.Entities.ContactFormDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "torun_backend.Controllers.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.PageController",
+    "Method": "GetAll",
+    "RelativePath": "api/Page",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.PageController",
+    "Method": "Add",
+    "RelativePath": "api/Page",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "torun_backend.Entities.Page",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.PageController",
+    "Method": "GetById",
+    "RelativePath": "api/Page/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.PageController",
     "Method": "Update",
-    "RelativePath": "api/SiteDesc/Update",
+    "RelativePath": "api/Page/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "torun_backend.Entities.SiteDesc",
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "torun_backend.Entities.Page",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.PageController",
+    "Method": "Delete",
+    "RelativePath": "api/Page/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.PageFieldController",
+    "Method": "GetAll",
+    "RelativePath": "api/PageField",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.PageFieldController",
+    "Method": "Add",
+    "RelativePath": "api/PageField",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageField",
+        "Type": "torun_backend.Entities.PageField",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.PageFieldController",
+    "Method": "GetById",
+    "RelativePath": "api/PageField/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.PageFieldController",
+    "Method": "Update",
+    "RelativePath": "api/PageField/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageField",
+        "Type": "torun_backend.Entities.PageField",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.PageFieldController",
+    "Method": "Delete",
+    "RelativePath": "api/PageField/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.TranslationController",
+    "Method": "GetAll",
+    "RelativePath": "api/Translation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.TranslationController",
+    "Method": "Add",
+    "RelativePath": "api/Translation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "translation",
+        "Type": "torun_backend.Entities.Translation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.TranslationController",
+    "Method": "GetById",
+    "RelativePath": "api/Translation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.TranslationController",
+    "Method": "Update",
+    "RelativePath": "api/Translation/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "translation",
+        "Type": "torun_backend.Entities.Translation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "torun_backend.Controllers.TranslationController",
+    "Method": "Delete",
+    "RelativePath": "api/Translation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

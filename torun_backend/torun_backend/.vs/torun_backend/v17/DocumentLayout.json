@@ -3,52 +3,120 @@
   "WorkspaceRootPath": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\services\\sitedescservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\services\\sitedescservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\entities\\translation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\entities\\translation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\services\\blogcomponentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\services\\blogcomponentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\services\\translationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\services\\translationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\controllers\\sitedesccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\controllers\\sitedesccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\services\\ihomeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\services\\ihomeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\entities\\sitedesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\entities\\sitedesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\services\\blogtranslationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\services\\blogtranslationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\entities\\pagefield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\entities\\pagefield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\entities\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\entities\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\entities\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\entities\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\entities\\ientitiy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\entities\\ientitiy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\entities\\contactformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\entities\\contactformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\entities\\blogtranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\entities\\blogtranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\entities\\blogcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\entities\\blogcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\controllers\\translationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\controllers\\translationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\controllers\\pagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\controllers\\pagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\services\\pageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\services\\pageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\controllers\\pagefieldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\controllers\\pagefieldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\services\\pagefieldservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\services\\pagefieldservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\controllers\\blogtranslationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\controllers\\blogtranslationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\services\\smtpemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\services\\smtpemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\services\\smtpmailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\services\\smtpmailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\services\\ihomeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\services\\ihomeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\torun_backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\torun_backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|c:\\users\\umutg\\onedrive\\desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EA74305C-F62E-4FD2-A176-F3597770A701}|torun_backend\\torun_backend.csproj|solutionrelative:torun_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,148 +138,371 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SiteDescController.cs",
-              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\SiteDescController.cs",
-              "RelativeDocumentMoniker": "torun_backend\\Controllers\\SiteDescController.cs",
-              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\SiteDescController.cs",
-              "RelativeToolTip": "torun_backend\\Controllers\\SiteDescController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T00:01:08.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SiteDesc.cs",
-              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\SiteDesc.cs",
-              "RelativeDocumentMoniker": "torun_backend\\Entities\\SiteDesc.cs",
-              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\SiteDesc.cs",
-              "RelativeToolTip": "torun_backend\\Entities\\SiteDesc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Page.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\Page.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Entities\\Page.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\Page.cs",
+              "RelativeToolTip": "torun_backend\\Entities\\Page.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T23:48:43.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SiteDescService.cs",
-              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\SiteDescService.cs",
-              "RelativeDocumentMoniker": "torun_backend\\Services\\SiteDescService.cs",
-              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\SiteDescService.cs",
-              "RelativeToolTip": "torun_backend\\Services\\SiteDescService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAUAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "PageField.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\PageField.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Entities\\PageField.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\PageField.cs",
+              "RelativeToolTip": "torun_backend\\Entities\\PageField.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T23:47:58.645Z",
+              "WhenOpened": "2026-02-27T01:30:35.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Program.cs",
-              "RelativeDocumentMoniker": "torun_backend\\Program.cs",
-              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Program.cs",
-              "RelativeToolTip": "torun_backend\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "BlogService.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\BlogService.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Services\\BlogService.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\BlogService.cs",
+              "RelativeToolTip": "torun_backend\\Services\\BlogService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T16:00:55.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "torun_backend\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "torun_backend\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwDoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T15:59:21.428Z",
+              "WhenOpened": "2026-02-27T01:47:59.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\Login.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Entities\\Login.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\Login.cs",
+              "RelativeToolTip": "torun_backend\\Entities\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T01:35:35.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\appsettings.json",
+              "RelativeDocumentMoniker": "torun_backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\appsettings.json",
+              "RelativeToolTip": "torun_backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-17T17:46:11.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "DbContext.cs",
               "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Context\\DbContext.cs",
               "RelativeDocumentMoniker": "torun_backend\\Context\\DbContext.cs",
               "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Context\\DbContext.cs",
               "RelativeToolTip": "torun_backend\\Context\\DbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwB4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T17:17:07.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlogComponentService.cs",
-              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\BlogComponentService.cs",
-              "RelativeDocumentMoniker": "torun_backend\\Services\\BlogComponentService.cs",
-              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\BlogComponentService.cs",
-              "RelativeToolTip": "torun_backend\\Services\\BlogComponentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "BlogTranslation.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\BlogTranslation.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Entities\\BlogTranslation.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\BlogTranslation.cs",
+              "RelativeToolTip": "torun_backend\\Entities\\BlogTranslation.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T17:16:59.794Z",
+              "WhenOpened": "2026-02-27T01:34:56.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "BlogComponent.cs",
-              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\BlogComponent.cs",
-              "RelativeDocumentMoniker": "torun_backend\\Entities\\BlogComponent.cs",
-              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\BlogComponent.cs",
-              "RelativeToolTip": "torun_backend\\Entities\\BlogComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Title": "ContactFormDto.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\ContactFormDto.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Entities\\ContactFormDto.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\ContactFormDto.cs",
+              "RelativeToolTip": "torun_backend\\Entities\\ContactFormDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T17:16:44.594Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IHomeService.cs",
-              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\IHomeService.cs",
-              "RelativeDocumentMoniker": "torun_backend\\Services\\IHomeService.cs",
-              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\IHomeService.cs",
-              "RelativeToolTip": "torun_backend\\Services\\IHomeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T17:16:24.37Z",
+              "WhenOpened": "2026-02-27T02:03:54.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IEntitiy.cs",
               "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\IEntitiy.cs",
               "RelativeDocumentMoniker": "torun_backend\\Entities\\IEntitiy.cs",
               "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\IEntitiy.cs",
               "RelativeToolTip": "torun_backend\\Entities\\IEntitiy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T18:05:05.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\appsettings.json",
-              "RelativeDocumentMoniker": "torun_backend\\appsettings.json",
-              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\appsettings.json",
-              "RelativeToolTip": "torun_backend\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-17T17:46:11.936Z"
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Program.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Program.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Program.cs",
+              "RelativeToolTip": "torun_backend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T16:00:55.377Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "TranslationService.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\TranslationService.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Services\\TranslationService.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\TranslationService.cs",
+              "RelativeToolTip": "torun_backend\\Services\\TranslationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T01:47:08.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Translation.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\Translation.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Entities\\Translation.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\Translation.cs",
+              "RelativeToolTip": "torun_backend\\Entities\\Translation.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T01:31:05.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\Blog.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Entities\\Blog.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Entities\\Blog.cs",
+              "RelativeToolTip": "torun_backend\\Entities\\Blog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T01:34:24.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BlogTranslationService.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\BlogTranslationService.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Services\\BlogTranslationService.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\BlogTranslationService.cs",
+              "RelativeToolTip": "torun_backend\\Services\\BlogTranslationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T01:49:48.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BlogTranslationController.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\BlogTranslationController.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Controllers\\BlogTranslationController.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\BlogTranslationController.cs",
+              "RelativeToolTip": "torun_backend\\Controllers\\BlogTranslationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:09:09.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "torun_backend\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvywAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:09:42.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PageFieldController.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\PageFieldController.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Controllers\\PageFieldController.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\PageFieldController.cs",
+              "RelativeToolTip": "torun_backend\\Controllers\\PageFieldController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAkwFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:10:22.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PageController.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\PageController.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Controllers\\PageController.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\PageController.cs",
+              "RelativeToolTip": "torun_backend\\Controllers\\PageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:11:02.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TranslationController.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\TranslationController.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Controllers\\TranslationController.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\TranslationController.cs",
+              "RelativeToolTip": "torun_backend\\Controllers\\TranslationController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwDQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:11:43.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "torun_backend\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:08:35.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "torun_backend\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:06:14.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PageService.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\PageService.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Services\\PageService.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\PageService.cs",
+              "RelativeToolTip": "torun_backend\\Services\\PageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T17:16:59.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SmtpEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\SmtpEmailService.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Services\\SmtpEmailService.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\SmtpEmailService.cs",
+              "RelativeToolTip": "torun_backend\\Services\\SmtpEmailService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:05:05.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Services\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\IEmailService.cs",
+              "RelativeToolTip": "torun_backend\\Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:04:29.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PageFieldService.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\PageFieldService.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Services\\PageFieldService.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\PageFieldService.cs",
+              "RelativeToolTip": "torun_backend\\Services\\PageFieldService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwB4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T01:44:58.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\LoginService.cs",
+              "RelativeToolTip": "torun_backend\\Services\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T01:50:30.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SmtpMailService.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\SmtpMailService.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Services\\SmtpMailService.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\SmtpMailService.cs",
+              "RelativeToolTip": "torun_backend\\Services\\SmtpMailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:01:07.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IHomeService.cs",
+              "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\IHomeService.cs",
+              "RelativeDocumentMoniker": "torun_backend\\Services\\IHomeService.cs",
+              "ToolTip": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\Services\\IHomeService.cs",
+              "RelativeToolTip": "torun_backend\\Services\\IHomeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T17:16:24.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "torun_backend.csproj",
               "DocumentMoniker": "C:\\Users\\umutg\\OneDrive\\Desktop\\torunavukat\\torun_backend\\torun_backend\\torun_backend\\torun_backend.csproj",
               "RelativeDocumentMoniker": "torun_backend\\torun_backend.csproj",
